@@ -16,7 +16,8 @@ The **STEM Standard Operating Environment** (SOE) provides a common set of devel
 1. [GitHub Setup](#github-setup)
 2. [SOE Setup](#soe-setup)
 3. [Remote Computing Options](#remote-computing-options)
-4. [Contributing](#contributing)
+4. [Help and Support](#help-and-support)
+5. [Contributing](#contributing)
 
 ## GitHub Setup
 
@@ -85,5 +86,19 @@ The university provides remote computing environments for many STEM courses, suc
 **Requirements:** No installation is required. You can view public repositories without a GitHub account, but saving changes to GitHub requires signing in and having permission to modify the repository.
 
 [![Open in VS Code for Web](https://raw.githubusercontent.com/GC-STEM/.github/refs/heads/main/.github/assets/open-in-vscode-web.svg)](https://github.dev/GC-STEM/soe)
+
+## Help and Support
+
+### Resources on GitHub.com
+
+#### Repository Wiki
+
+#### GitHub Copilot
+
+#### Repository Discussion
+
+#### Repository Issues
+
+### IT Service Desk
 
 ## Contributing
