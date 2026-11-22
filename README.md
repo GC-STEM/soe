@@ -9,11 +9,16 @@
 
 ---
 
-## Overview
-
 The **STEM Standard Operating Environment** (SOE) provides a common set of development tools and configurations for Windows, macOS, and Linux computers. Organizations use standard computing environments to reduce compatibility problems, simplify technical support, and improve collaboration. The SOE gives STEM students and faculty a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
 
-## Set up your GitHub account
+## Table of Contents <!-- omit from toc -->
+
+1. [GitHub Setup](#github-setup)
+2. [SOE Setup](#soe-setup)
+3. [Remote Computing Options](#remote-computing-options)
+4. [Contributing](#contributing)
+
+## GitHub Setup
 
 **GitHub** is a widely used platform for managing code and collaborating on technical projects. A free personal account lets you store and share your work, track changes, collaborate with others, and use cloud-based development tools. Your GitHub account also provides a portfolio of projects that can demonstrate your technical skills to potential employers.
 
@@ -23,11 +28,9 @@ Setting up your GitHub account is the first step in preparing the STEM Standard 
 
 2. I already have a personal GitHub account, but haven't set it for up for STEM coursework yet. [**Configure your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#configure-your-github-account).
 
-3. I already set up my personal GitHub account for STEM coursework. [**Verify your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#verify-your-github-account). Optionally, you may also wish to:
-   - [**Apply for GitHub Education benefits**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#apply-for-github-education-benefits-optional)
-   - [**Customize your GitHub profile**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#customize-your-github-profile-optional)
+3. I already set up my personal GitHub account for STEM coursework. [**Verify your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#verify-your-github-account).
 
-## Set up the SOE on your computer
+## SOE Setup
 
 Setting up the SOE on your local computer provides the tools and configurations needed for technical coursework. Using a common environment helps you spend less time installing and troubleshooting software, follow the same instructions as other students, and move between courses without repeatedly setting up your computer.
 
@@ -37,24 +40,12 @@ Select your operating system to follow the appropriate setup instructions:
 - [**macOS**](https://github.com/GC-STEM/soe/wiki/SOE-Setup-on-macOS)
 - [**Linux**](https://github.com/GC-STEM/soe/wiki/SOE-Setup-on-Linux)
 
-### Configure and Verify the SOE
+> ![TIP]
+> If you are unable to set up the SOE on your local computer before starting your coursework, skip to [**Remote Computing Options**](#remote-computing-options) for alternative solutions.
 
-**Procedure**. Click the copy icon (two squares overlapping) on the right side of the command block to copy the entire command to your clipboard. Then paste it into your terminal and press **Enter** to run the command. Follow the on-screen instructions to complete the authentication process.
+### Clone the repository
 
-```shell
-git --version
-gh --version
-pwsh --version
-python3 --version
-code --version
-gh auth login --clipboard --hostname github.com --git-protocol https --web
-git config --global user.name "$(gh api user --jq 'if (.name | length) > 0 then .name else .login end')"
-git config --global user.email "$(gh api user --jq '.id')+$(gh api user --jq '.login')@users.noreply.github.com"
-gh auth setup-git
-git config --global --get-regexp '^user\.(name|email)$'
-```
-
-## Clone the repository
+After setting up the SOE on your computer, you can clone the repository so the SOE files are available locally.
 
 ```shell
 gh api --method PUT user/starred/GC-STEM/soe
@@ -63,16 +54,36 @@ git clone https://github.com/GC-STEM/soe.git "$HOME/Repos/_shared/soe"
 
 ## Remote Computing Options
 
-Remote computing options allow you to work in the **STEM Standard Operating Environment** (SOE) using a web browser, without needing to install the SOE locally. This can be especially useful if you are using a computer that is not able to install the SOE or if you want to quickly start coding from any device.
+**Remote Computing Options (RCOs)** let you access development tools or edit code through a web browser without installing the SOE on your computer. They are especially useful when your computer cannot run the required software, you are away from your usual computer, or you need temporary access to your coursework.
+
+The options below offer different capabilities. **University-provided environments are the only recommended option for course-long remote computing.** The other options are intended for temporary or limited use.
+
+### University-Provided Environments
+
+The university provides remote computing environments for many STEM courses, such as **Codio Virtual Desktop**. These environments include the software and configurations needed for your course, helping you complete assignments without installing software on your computer. They also provide a common setup that instructors and technical support teams can help troubleshoot.
+
+**When to use:** Recommended for regular coursework throughout the term, especially if your computer cannot run the required software.
+
+**Get started:** Check your [Brightspace](https://learn.snhu.edu) course under **Course Menu > Learning Modules**, particularly **Start Here**. If you cannot find a remote environment, ask in your course's **General Questions** discussion.
 
 ### GitHub Codespaces
 
-GitHub Codespaces provides a full-featured development environment in your browser, preconfigured with the tools and settings needed for the SOE. You can start coding immediately without installing software locally.
+**GitHub Codespaces** provides a cloud-based development environment with VS Code, a terminal, and tools for running and testing code. When launched from the SOE repository, it uses the repository's development environment configuration. Unlike a local installation, the computing work happens on GitHub's servers. [Learn more](https://github.com/features/codespaces).
+
+**When to use:** As a temporary backup when your usual computing environment is unavailable or when you need to run code from another computer.
+
+**Requirements:** A personal GitHub account is required. Free monthly usage is included, but limits apply, and additional usage may incur charges. Students and faculty can [apply for GitHub Education benefits](https://github.com/settings/education/benefits) for increased allowances.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GC-STEM/soe)
 
-### VS Code for Web
+### VS Code for the Web
 
-VS Code for Web allows you to edit and work on your STEM coursework directly in your browser. While it may not have all the features of GitHub Codespaces ora full local installation, it provides a convenient way to quickly access and modify your code from any device.
+**VS Code for the Web** is a free, browser-based code editor that lets you view and edit GitHub repository files without installing software. Unlike Codespaces, it does not provide a terminal or a computing environment for running and testing programs. [Learn more](https://code.visualstudio.com/docs/remote/vscode-web).
+
+**When to use:** To quickly review or make small changes to code and other files, especially when you do not need to run or test a program.
+
+**Requirements:** No installation is required. You can view public repositories without a GitHub account, but saving changes to GitHub requires signing in and having permission to modify the repository.
 
 [![Open in VS Code for Web](https://raw.githubusercontent.com/GC-STEM/.github/refs/heads/main/.github/assets/open-in-vscode-web.svg)](https://github.dev/GC-STEM/soe)
+
+## Contributing
