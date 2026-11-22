@@ -89,16 +89,28 @@ The university provides remote computing environments for many STEM courses, suc
 
 ## Help and Support
 
-### Resources on GitHub.com
+Help is available when you need it. Start with the resources below and choose the option that best matches your question or problem.
 
-#### Repository Wiki
+### GitHub Resources
 
-#### GitHub Copilot
+- **[SOE Wiki](https://github.com/GC-STEM/soe/wiki):** Find setup instructions, configuration guidance, and troubleshooting information.
+- **[Discussions](https://github.com/GC-STEM/soe/discussions):** Ask questions and share solutions about the SOE, its tools, and setup procedures.
+- **[Issues](https://github.com/GC-STEM/soe/issues/new/choose):** Report installation problems, broken links, incorrect instructions, accessibility barriers, or suggestions for improving the SOE.
+- **[GitHub Copilot](https://docs.github.com/en/copilot):** Get AI-assisted help understanding commands, explaining errors, and troubleshooting code. Check its suggestions and follow your course's AI-use rules.
 
-#### Repository Discussion
+GitHub Copilot icon ![GitHub Copilot](https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-24.svg)
 
-#### Repository Issues
+[![Open in VS Code for Web](https://raw.githubusercontent.com/GC-STEM/.github/refs/heads/main/.github/assets/copilot-24.svg)](https://github.dev/GC-STEM/soe)
 
-### IT Service Desk
+### University Support
+
+- **[Brightspace](https://learn.snhu.edu):** Contact your instructor for coursework questions, assignment requirements, grades, or deadlines.
+- **[IT Service Desk](https://snhu.service-now.com/sp):** Get help with university accounts, access, and university-provided technology.
+
+**Important:** If a technical problem prevents you from completing coursework, notify your instructor promptly. Do not post passwords, personal information, grades, or completed assignments in public GitHub conversations.
+
+For additional guidance, see the [GC-STEM Support Guidelines](https://github.com/GC-STEM/.github/blob/main/SUPPORT.md).
 
 ## Contributing
+
+We welcome suggestions for improving the SOE. Students and faculty can report problems or recommend changes through [**GitHub Issues**](https://github.com/GC-STEM/soe/issues/new/choose). Pull requests are reserved for authorized repository collaborators. See the [GC-STEM Contributing Guidelines](https://github.com/GC-STEM/.github/blob/main/CONTRIBUTING.md).
