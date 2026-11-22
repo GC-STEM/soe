@@ -83,12 +83,12 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
 
 mkdir -p "$HOME/Repos/_shared"
 
-if [ ! -e "$HOME/Repos/_shared/SOE" ]; then
-  git clone https://github.com/GC-STEM/SOE.git \
-    "$HOME/Repos/_shared/SOE"
+if [ ! -e "$HOME/Repos/_shared/soe" ]; then
+  git clone https://github.com/GC-STEM/soe.git \
+    "$HOME/Repos/_shared/soe"
 fi
 
-setup="$HOME/Repos/_shared/SOE/scripts/bash/setup_ubuntu_runtime.sh"
+setup="$HOME/Repos/_shared/soe/scripts/bash/setup_ubuntu_runtime.sh"
 
 if [ ! -f "$setup" ]; then
   echo 'SOE installation script not found.' >&2
@@ -110,7 +110,7 @@ $repositoryArg = if ($CourseRepo) {
     $CourseRepo
 }
 else {
-    'GC-STEM/SOE'
+    'GC-STEM/soe'
 }
 
 ($bootstrap + "`n") |

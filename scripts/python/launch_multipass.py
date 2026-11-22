@@ -11,7 +11,7 @@ from pathlib import Path
 
 REPO_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 NAME_PATTERN = re.compile(r"^[a-z][a-z0-9-]{0,39}$")
-GUEST_SOE = "/home/ubuntu/Repos/_shared/SOE"
+GUEST_SOE = "/home/ubuntu/Repos/_shared/soe"
 
 
 def run(
@@ -114,10 +114,10 @@ def main() -> int:
     # Clone SOE as a separate, course-independent shared checkout.
     script = (
         'set -Eeuo pipefail; mkdir -p "$HOME/Repos/_shared"; '
-        'if [ ! -e "$HOME/Repos/_shared/SOE" ]; then '
-        'git clone https://github.com/GC-STEM/SOE.git '
-        '"$HOME/Repos/_shared/SOE"; fi; '
-        'test -f "$HOME/Repos/_shared/SOE/scripts/bash/setup_ubuntu_runtime.sh"'
+        'if [ ! -e "$HOME/Repos/_shared/soe" ]; then '
+        'git clone https://github.com/GC-STEM/soe.git '
+        '"$HOME/Repos/_shared/soe"; fi; '
+        'test -f "$HOME/Repos/_shared/soe/scripts/bash/setup_ubuntu_runtime.sh"'
     )
     run("multipass", "exec", args.name, "--", "bash", "-lc", script)
     run(

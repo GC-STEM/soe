@@ -17,18 +17,18 @@ to install WSL, and Windows VS Code with the Microsoft WSL extension.
 From **Windows PowerShell 5.1 or PowerShell 7+**, in your local SOE checkout:
 
 ```powershell
-& "$HOME/Repos/_shared/SOE/scripts/powershell/setup_wsl2.ps1" -CourseRepo 'GC-STEM/crs000'
+& "$HOME/Repos/_shared/soe/scripts/powershell/setup_wsl2.ps1" -CourseRepo 'GC-STEM/crs000'
 ```
 
 To provision **SOE only** in WSL2, omit `-CourseRepo`:
 
 ```powershell
-& "$HOME/Repos/_shared/SOE/scripts/powershell/setup_wsl2.ps1"
+& "$HOME/Repos/_shared/soe/scripts/powershell/setup_wsl2.ps1"
 ```
 
 If WSL or Ubuntu is not yet installed, the command installs Ubuntu 24.04.
 Restart Windows and create your Linux user when prompted, then rerun the same
-command. The second run clones SOE to `~/Repos/_shared/SOE` *inside Ubuntu*,
+command. The second run clones SOE to `~/Repos/_shared/soe` *inside Ubuntu*,
 clones the selected public course to `~/Repos/<course>` there, installs the
 headless SOE/CSO packages and checks the resulting environment. Use `-SoeOnly` instead of `-CourseRepo` to install just the SOE. A private
 course requires a separately authenticated checkout in WSL and direct use of

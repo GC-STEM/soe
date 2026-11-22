@@ -110,7 +110,7 @@ try {
     # Download the canonical SOE repository.
 
     Write-Host 'Downloading the SOE repository...'
-    Get-Repository 'GC-STEM/SOE' $soeRoot
+    Get-Repository 'GC-STEM/soe' $soeRoot
 
     $soe = Get-Content (
         Join-Path $soeRoot '.config\soe_manifest.json'

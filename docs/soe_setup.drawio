@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="GAzbhLWE2Y0J_fDEhlIK" name="Prepare System">
+        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-1" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="Start" vertex="1">
+                    <mxGeometry height="38" width="100" x="375" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-2" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="Windows Product?" vertex="1">
+                    <mxGeometry height="67" width="100" x="375" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-3" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="&amp;lt;condition&amp;gt;?" vertex="1">
+                    <mxGeometry height="67" width="100" x="230" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-4" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="&amp;lt;condition&amp;gt;?" vertex="1">
+                    <mxGeometry height="67" width="100" x="520" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-5" edge="1" parent="1" source="wB6KlHbhsXBewcJgrVQI-2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="wB6KlHbhsXBewcJgrVQI-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-7" connectable="0" parent="wB6KlHbhsXBewcJgrVQI-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Win 11" vertex="1">
+                    <mxGeometry relative="1" x="-0.0421" y="-4" as="geometry">
+                        <mxPoint x="-5" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-6" edge="1" parent="1" source="wB6KlHbhsXBewcJgrVQI-2" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="wB6KlHbhsXBewcJgrVQI-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-8" connectable="0" parent="wB6KlHbhsXBewcJgrVQI-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Win 10" vertex="1">
+                    <mxGeometry relative="1" x="-0.272" y="4" as="geometry">
+                        <mxPoint x="-2" y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wB6KlHbhsXBewcJgrVQI-10" parent="1" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="&amp;lt;condition&amp;gt;?" vertex="1">
+                    <mxGeometry height="67" width="100" x="520" y="270" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="HL-rd53hETajGWmTcmxP" name="Install SOE">
+        <mxGraphModel dx="2025" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="oS1Yq39tcO2DTvthOQdv-0"/>
+                <mxCell id="oS1Yq39tcO2DTvthOQdv-1" parent="oS1Yq39tcO2DTvthOQdv-0"/>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-0" parent="oS1Yq39tcO2DTvthOQdv-1" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="Start" vertex="1">
+                    <mxGeometry height="38" width="100" x="110" y="136" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-1" parent="oS1Yq39tcO2DTvthOQdv-1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;aspect=fixed;legacyAnchorPoints=0;" value="Open a &lt;br&gt;Terminal" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="216" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-2" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-0" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-1" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-3" parent="oS1Yq39tcO2DTvthOQdv-1" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="WinGet&lt;br&gt;installed?" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-4" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-1" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-5" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="Update WinGet Sources" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="434" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-6" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-3" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-7" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="Install or Update Windows Terminal" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="546" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-8" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-5" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-7" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-9" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update Git for Windows&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="658" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-10" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-7" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-9" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-11" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update GitHub CLI&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="770" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-12" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-9" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-11" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-13" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update PowerShell 7&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="110" y="882" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-14" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-11" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-13" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-15" parent="oS1Yq39tcO2DTvthOQdv-1" style="verticalLabelPosition=center;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;fontSize=12;strokeWidth=1;labelBackgroundColor=default;" value="A" vertex="1">
+                    <mxGeometry height="50" width="50" x="135.0000000000001" y="986" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-16" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-13" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-15" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-17" parent="oS1Yq39tcO2DTvthOQdv-1" style="verticalLabelPosition=center;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;fontSize=12;strokeWidth=1;labelBackgroundColor=default;" value="A" vertex="1">
+                    <mxGeometry height="50" width="50" x="340" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-18" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update Visual Studio Code&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="315" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-19" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="Install or Update Python Install Manager" vertex="1">
+                    <mxGeometry height="67" width="100" x="315" y="216" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-20" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjNIWxWZ49KlVRmYakRp-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-21" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjNIWxWZ49KlVRmYakRp-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-22" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="Refresh terminal PATH" vertex="1">
+                    <mxGeometry height="67" width="100" x="315" y="434" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-23" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-18" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjNIWxWZ49KlVRmYakRp-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-24" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update Python Interpreter&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="315" y="546" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-25" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjNIWxWZ49KlVRmYakRp-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-26" parent="oS1Yq39tcO2DTvthOQdv-1" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Install or Update VS Code Extensions&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="67" width="100" x="315" y="658" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-27" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjNIWxWZ49KlVRmYakRp-26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-28" parent="oS1Yq39tcO2DTvthOQdv-1" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" value="End" vertex="1">
+                    <mxGeometry height="38" width="100" x="315" y="785" as="geometry"/>
+                </mxCell>
+                <mxCell id="EjNIWxWZ49KlVRmYakRp-29" edge="1" parent="oS1Yq39tcO2DTvthOQdv-1" source="EjNIWxWZ49KlVRmYakRp-26" style="edgeStyle=none;html=1;" target="EjNIWxWZ49KlVRmYakRp-28" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

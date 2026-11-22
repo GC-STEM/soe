@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Provision a headless Ubuntu 24.04 WSL2/Multipass SOE or course CSO.
-# Shared installer and resolver are owned by GC-STEM/SOE.
+# Shared installer and resolver are owned by GC-STEM/soe.
 set -Eeuo pipefail
 
 usage() {

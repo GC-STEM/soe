@@ -10,7 +10,7 @@
     "automation_release":  "1.0.4",
     "control":  {
                     "status":  "draft",
-                    "source_repository":  "https://github.com/GC-STEM/SOE",
+                    "source_repository":  "https://github.com/GC-STEM/soe",
                     "change_summary":  "Implement STEM leadership\u0027s approved previous-Ubuntu-LTS policy (latest LTS minus one): Ubuntu 24.04 LTS and its CPython 3.12.x runtime. Apply the same version line to Codio Boxes/VMs, native platform bindings, Codespaces and local Docker. Allow patch updates within the approved lines; changes to a new LTS/Python minor require a reviewed SOE release. Existing provider environments still require migration/qualification. Do not perform OS release upgrades or automatic interpreter downgrades. This implementation remains a draft pending release qualification."
                 },
     "policy":  {
