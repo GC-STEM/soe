@@ -94,8 +94,8 @@ Help is available when you need it. Start with the resources below and choose th
 ### GitHub Resources
 
 - **[SOE Wiki](https://github.com/GC-STEM/soe/wiki):** Find setup instructions, configuration guidance, and troubleshooting information.
-- **[Discussions](https://github.com/GC-STEM/soe/discussions):** Ask questions and share solutions about the SOE, its tools, and setup procedures.
-- **[Issues](https://github.com/GC-STEM/soe/issues/new/choose):** Report installation problems, broken links, incorrect instructions, accessibility barriers, or suggestions for improving the SOE.
+- **[GitHub Discussions](https://github.com/GC-STEM/soe/discussions):** Ask questions and share solutions about the SOE, its tools, and setup procedures.
+- **[GitHub Issues](https://github.com/GC-STEM/soe/issues/new/choose):** Report installation problems, broken links, incorrect instructions, accessibility barriers, or suggestions for improving the SOE.
 - **[GitHub Copilot](https://docs.github.com/en/copilot):** Get AI-assisted help understanding commands, explaining errors, and troubleshooting code. Check its suggestions and follow your course's AI-use rules.
 
 GitHub Copilot icon ![GitHub Copilot](https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-24.svg)
