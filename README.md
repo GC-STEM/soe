@@ -13,15 +13,15 @@ The **STEM Standard Operating Environment** (SOE) provides a common set of devel
 
 ## Table of Contents <!-- omit from toc -->
 
-1. [GitHub Setup](#github-setup)
-2. [SOE Setup](#soe-setup)
+1. [GitHub.com Setup](#githubcom-setup)
+2. [Local Setup](#local-setup)
 3. [Remote Computing Options](#remote-computing-options)
 4. [Help and Support](#help-and-support)
 5. [Contributing](#contributing)
 
-## GitHub Setup
+## GitHub.com Setup
 
-**GitHub** is a widely used platform for managing code and collaborating on technical projects. A free personal account lets you store and share your work, track changes, collaborate with others, and use cloud-based development tools. Your GitHub account also provides a portfolio of projects that can demonstrate your technical skills to potential employers.
+**GitHub.com** is a widely used platform for managing code and collaborating on technical projects. A free personal account lets you store and share your work, track changes, collaborate with others, and use cloud-based development tools. Your GitHub account also provides a portfolio of projects that can demonstrate your technical skills to potential employers.
 
 Setting up your GitHub account is the first step in preparing the STEM Standard Operating Environment (SOE) for your coursework. Start at the step that best describes your situation:
 
@@ -31,7 +31,9 @@ Setting up your GitHub account is the first step in preparing the STEM Standard 
 
 3. I already set up my personal GitHub account for STEM coursework. [**Verify your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#verify-your-github-account).
 
-## SOE Setup
+4. I have not applied for GitHub Education benefits yet. [**Apply for benefits**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#apply-for-github-education-benefits-recommended).
+
+## Local Setup
 
 Setting up the SOE on your local computer provides the tools and configurations needed for technical coursework. Using a common environment helps you spend less time installing and troubleshooting software, follow the same instructions as other students, and move between courses without repeatedly setting up your computer.
 
@@ -91,21 +93,20 @@ The university provides remote computing environments for many STEM courses, suc
 
 Help is available when you need it. Start with the resources below and choose the option that best matches your question or problem.
 
-### GitHub Resources
+### AI Support
 
-- **[SOE Wiki](https://github.com/GC-STEM/soe/wiki):** Find setup instructions, configuration guidance, and troubleshooting information.
-- **[GitHub Discussions](https://github.com/GC-STEM/soe/discussions):** Ask questions and share solutions about the SOE, its tools, and setup procedures.
-- **[GitHub Issues](https://github.com/GC-STEM/soe/issues/new/choose):** Report installation problems, broken links, incorrect instructions, accessibility barriers, or suggestions for improving the SOE.
-- **[GitHub Copilot](https://docs.github.com/en/copilot):** Get AI-assisted help understanding commands, explaining errors, and troubleshooting code. Check its suggestions and follow your course's AI-use rules.
+Ask **GitHub Copilot** about the SOE, its tools, installation, and configuration. GitHub Copilot is available on GitHub.com, in Visual Studio Code and other IDEs, and from a terminal shell. [Learn more](https://github.com/GC-STEM/soe/wiki/GitHub-Copilot).
 
-GitHub Copilot icon ![GitHub Copilot](https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-24.svg)
+### Repository Resources
 
-[![Open in VS Code for Web](https://raw.githubusercontent.com/GC-STEM/.github/refs/heads/main/.github/assets/copilot-24.svg)](https://github.dev/GC-STEM/soe)
+- **[SOE Wiki](https://github.com/GC-STEM/soe/wiki)**: Find setup instructions, configuration guidance, and troubleshooting information.
+- **[SOE Discussions](https://github.com/GC-STEM/soe/discussions)**: Ask questions and share solutions about the SOE, its tools, and setup procedures.
+- **[SOE Issues](https://github.com/GC-STEM/soe/issues/new/choose)**: Report installation problems, broken links, incorrect instructions, accessibility barriers, or suggestions for improving the SOE.
 
 ### University Support
 
-- **[Brightspace](https://learn.snhu.edu):** Contact your instructor for coursework questions, assignment requirements, grades, or deadlines.
-- **[IT Service Desk](https://snhu.service-now.com/sp):** Get help with university accounts, access, and university-provided technology.
+- **[Brightspace](https://learn.snhu.edu)**: Contact your instructor for coursework questions, assignment requirements, grades, or deadlines.
+- **[IT Service Desk](https://snhu.service-now.com/sp)**: Get help with university accounts, access, and university-provided technology.
 
 **Important:** If a technical problem prevents you from completing coursework, notify your instructor promptly. Do not post passwords, personal information, grades, or completed assignments in public GitHub conversations.
 
