@@ -6,7 +6,9 @@
 
 ![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)
 ![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+[![GNU Bash](https://img.shields.io/badge/Bash-GNU-4EAA25?logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![PowerShell 7](https://img.shields.io/badge/PowerShell-7-5391FE)](https://learn.microsoft.com/powershell/)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 ![Reference OS](https://img.shields.io/badge/Reference%20OS-Ubuntu%2024.04%20LTS-E95420?logo=ubuntu&logoColor=white)
 
 [![Core Validation](https://github.com/GC-STEM/soe/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/tests.yml)
