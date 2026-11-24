@@ -2,8 +2,6 @@
 
 # STEM Standard Operating Environment
 
-<!-- SME/AI TODO: Add appropriate status badges. -->
-
 ![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)
 ![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)
 ![Reference OS](https://img.shields.io/badge/Reference%20OS-Ubuntu%2024.04%20LTS-E95420?logo=ubuntu&logoColor=white)
@@ -22,7 +20,7 @@
 
 ## Description
 
-The **STEM Standard Operating Environment** (SOE) provides a common set of development tools and configurations for STEM students and faculty. It supports local and remote Windows, macOS, and Linux computing environments. The SOE provides a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. This consistency reduces compatibility problems, simplifies technical support, and improves collaboration. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
+The **STEM Standard Operating Environment** (SOE) provides a common set of tools and configurations for STEM students and faculty. It supports local and remote Windows, macOS, and Linux computing environments. The SOE provides a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. This consistency reduces compatibility problems, simplifies technical support, and improves collaboration. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
 
 ## Table of Contents <!-- omit from toc -->
 
@@ -45,8 +43,6 @@ Setting up your GitHub account is the first step in preparing the STEM Standard 
 
 3. I already set up my personal GitHub account for STEM coursework. [**Verify your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#verify-your-github-account).
 
-
-
 ## Local SOE Setup
 
 Setting up the SOE on your local computer provides the tools and configurations needed for technical coursework. Using a common environment helps you spend less time installing and troubleshooting software, follow the same instructions as other students, and move between courses without repeatedly setting up your computer.
@@ -57,7 +53,7 @@ Select your operating system to follow the appropriate setup instructions:
 - [**macOS**](https://github.com/GC-STEM/soe/wiki/SOE-Setup-on-macOS)
 - [**Linux**](https://github.com/GC-STEM/soe/wiki/SOE-Setup-on-Linux)
 
-> ![TIP]
+> [!TIP]
 > If you are unable to set up the SOE on your local computer before starting your coursework, skip to [**Remote Computing Options**](#remote-soe-options) for alternative solutions.
 
 ### Clone the repository
