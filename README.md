@@ -11,6 +11,12 @@
 
 <!-- SME/AI TODO: Add appropriate status badges. -->
 
+[![Core Validation](https://github.com/GC-STEM/soe/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/tests.yml)
+[![Codespaces SOE](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml)
+[![Documentation Command Syntax](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml)
+[![Internal Links](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml)
+[![External Links](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml)
+
 ## Description
 
 The **STEM Standard Operating Environment** (SOE) provides a common set of development tools and configurations for STEM students and faculty. It supports local and remote Windows, macOS, and Linux computing environments. The SOE provides a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. This consistency reduces compatibility problems, simplifies technical support, and improves collaboration. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
