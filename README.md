@@ -9,15 +9,20 @@
 
 ---
 
-The **STEM Standard Operating Environment** (SOE) provides a common set of development tools and configurations for Windows, macOS, and Linux computers. Organizations use standard computing environments to reduce compatibility problems, simplify technical support, and improve collaboration. The SOE gives STEM students and faculty a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
+<!-- SME/AI TODO: Add appropriate status badges. -->
+
+## Description
+
+The **STEM Standard Operating Environment** (SOE) provides a common set of development tools and configurations for STEM students and faculty. It supports local and remote Windows, macOS, and Linux computing environments. The SOE provides a consistent foundation across programs and courses while allowing individual courses to add specialized tools when needed. This consistency reduces compatibility problems, simplifies technical support, and improves collaboration. [Learn more](https://github.com/GC-STEM/soe/wiki/Home).
 
 ## Table of Contents <!-- omit from toc -->
 
-1. [GitHub.com Setup](#githubcom-setup)
-2. [Local Setup](#local-setup)
-3. [Remote Computing Options](#remote-computing-options)
-4. [Help and Support](#help-and-support)
-5. [Contributing](#contributing)
+1. [Description](#description)
+2. [GitHub.com Setup](#githubcom-setup)
+3. [Local SOE Setup](#local-soe-setup)
+4. [Remote SOE Options](#remote-soe-options)
+5. [Help and Support](#help-and-support)
+6. [Contributing](#contributing)
 
 ## GitHub.com Setup
 
@@ -31,9 +36,9 @@ Setting up your GitHub account is the first step in preparing the STEM Standard 
 
 3. I already set up my personal GitHub account for STEM coursework. [**Verify your GitHub account**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#verify-your-github-account).
 
-4. I have not applied for GitHub Education benefits yet. [**Apply for benefits**](https://github.com/GC-STEM/soe/wiki/GitHub-Setup#apply-for-github-education-benefits-recommended).
 
-## Local Setup
+
+## Local SOE Setup
 
 Setting up the SOE on your local computer provides the tools and configurations needed for technical coursework. Using a common environment helps you spend less time installing and troubleshooting software, follow the same instructions as other students, and move between courses without repeatedly setting up your computer.
 
@@ -44,7 +49,7 @@ Select your operating system to follow the appropriate setup instructions:
 - [**Linux**](https://github.com/GC-STEM/soe/wiki/SOE-Setup-on-Linux)
 
 > ![TIP]
-> If you are unable to set up the SOE on your local computer before starting your coursework, skip to [**Remote Computing Options**](#remote-computing-options) for alternative solutions.
+> If you are unable to set up the SOE on your local computer before starting your coursework, skip to [**Remote Computing Options**](#remote-soe-options) for alternative solutions.
 
 ### Clone the repository
 
@@ -55,7 +60,7 @@ gh api --method PUT user/starred/GC-STEM/soe
 git clone https://github.com/GC-STEM/soe.git "$HOME/Repos/_shared/soe"
 ```
 
-## Remote Computing Options
+## Remote SOE Options
 
 **Remote Computing Options (RCOs)** let you access development tools or edit code through a web browser without installing the SOE on your computer. They are especially useful when your computer cannot run the required software, you are away from your usual computer, or you need temporary access to your coursework.
 
