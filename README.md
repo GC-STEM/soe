@@ -4,16 +4,16 @@
 
 <!-- SME/AI TODO: Add appropriate status badges. -->
 
+![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)
+![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Reference OS](https://img.shields.io/badge/Reference%20OS-Ubuntu%2024.04%20LTS-E95420?logo=ubuntu&logoColor=white)
+
 [![Core Validation](https://github.com/GC-STEM/soe/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/tests.yml)
 [![Command Syntax](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml)
 [![Internal Links](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml)
 [![External Links](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml)
 [![Codespaces SOE](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml)
-![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Reference OS](https://img.shields.io/badge/Reference%20OS-Ubuntu%2024.04%20LTS-E95420?logo=ubuntu&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Under%20Development-yellow)
-![License](https://img.shields.io/github/license/GC-STEM/soe)
 
 ---
 
