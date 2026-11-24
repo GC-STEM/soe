@@ -2,20 +2,20 @@
 
 # STEM Standard Operating Environment
 
+<!-- SME/AI TODO: Add appropriate status badges. -->
+
+[![Core Validation](https://github.com/GC-STEM/soe/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/tests.yml)
+[![Command Syntax](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml)
+[![Internal Links](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml)
+[![External Links](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml)
+[![Codespaces SOE](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml)
+
 ---
 
 > [!WARNING]
 > This repository is under active development and may change frequently. It is not ready for student or faculty use
 
 ---
-
-<!-- SME/AI TODO: Add appropriate status badges. -->
-
-[![Core Validation](https://github.com/GC-STEM/soe/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/tests.yml)
-[![Codespaces SOE](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/codespaces.yml)
-[![Documentation Command Syntax](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/readme-commands.yml)
-[![Internal Links](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/internal-links.yml)
-[![External Links](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml/badge.svg?branch=main)](https://github.com/GC-STEM/soe/actions/workflows/external-links.yml)
 
 ## Description
 
